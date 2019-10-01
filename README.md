@@ -85,12 +85,14 @@ python pre_processing/CoNLL_to_JSON.py \
 Each line inside the JSON file `EN_conll09_trial.json` will look like this:
  ```
 {
-	"seq_words": ["Meanwhile", ",", "September", "housing", "starts", ",", "due", "Wednesday", ",", "are", "thought", "to", "have", "inched", "upward", "."], 
-	"BIO": ["O", "O", "B-AM-TMP", "B-A1", "B-N-V", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"], 
-	"pred_sense": [4, "starts", "start.02", "NNS"], 
-	"seq_tag_tokens": ["Meanwhile", ",", "September", "housing", "starts", ",", "due", "Wednesday", ",", "are", "thought", "to", "have", "inched", "upward", "."], 
+	"seq_words": ["The", "economy", "'s", "temperature", "will", "be", "taken", "from", "several", "vantage", "points", "this", "week", ",", "with", "readings", "on", "trade", ",", "output", ",", "housing", "and", "inflation", "."], 
+	"BIO": ["O", "O", "O", "B-A1", "B-AM-MOD", "O", "B-V", "B-A2", "O", "O", "O", "O", "B-AM-TMP", "O", "B-AM-ADV", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"], 
+	"pred_sense": [6, "taken", "take.01", "VBN"], 
+	"seq_tag_tokens": ["The", "economy", "'s", "(#", "temperature", "A1)", "(#", "will", "AM-MOD)", "be", "(#", "taken", "V)", "(#", "from", "A2)", "several", "vantage", "points", "this", "(#", "week", "AM-TMP)", ",", "(#", "with", "AM-ADV)", "readings", "on", "trade", ",", "output", ",", "housing", "and", "inflation", "."], 
 	"src_lang": "<EN>", 
-	"tgt_lang": "<EN-SRL>"
+	"tgt_lang": "<EN-SRL>", 
+	"seq_marked": ["The", "economy", "'s", "temperature", "will", "be", "<PRED>", "taken", "from", "several", "vantage", "points", "this", "week", ",", "with", "readings", "on", "trade", ",", "output", ",", "housing", "and", "inflation", "."]
+
 }
  ``` 
 
