@@ -1,0 +1,99 @@
+1	Reprise	801	801	NC	NC	-	-	0	0	ROOT	ROOT	_	_
+2	de	32	32	P	P	-	-	1	1	dep	dep	_	_
+3	la	9	9	DET	DET	-	-	0	0	ROOT	ROOT	_	_
+4	session	1541	1541	NC	NC	-	-	0	0	ROOT	ROOT	_	_
+
+1	Je	5	5	CLS	CLS	-	-	3	3	suj	suj	_	_	A0	_	_
+2	déclare	133	133	V	V	-	-	3	3	aux_tps	aux_tps	_	_	_	_	_
+3	reprise	1945	1945	VPP	VPP	-	-	0	0	ROOT	ROOT	Y	take.01	_	_	_
+4	la	9	9	DET	DET	-	-	5	5	det	det	_	_	_	_	_
+5	session	1541	1541	NC	NC	-	-	3	3	obj	obj	_	_	A1	A1	_
+6	du	26	26	P+D	P+D	-	-	5	5	dep	dep	_	_	_	_	_
+7	Parlement	412	412	NPP	NPP	-	-	6	6	obj	obj	_	_	_	_	_
+8	européen	1098	1098	ET	ET	-	-	7	7	dep	dep	_	_	_	_	_
+9	qui	44	44	PROREL	PROREL	-	-	12	12	suj	suj	_	_	_	_	_
+10	avait	132	132	V	V	-	-	12	12	aux_tps	aux_tps	_	_	_	_	_
+11	été	280	280	ADV	ADV	-	-	12	12	mod	mod	_	_	_	_	_
+12	interrompue	4172	4172	VPP	VPP	-	-	7	7	mod_rel	mod_rel	Y	interrupt.01	_	_	_
+13	le	9	9	DET	DET	-	-	14	14	det	det	_	_	_	_	_
+14	vendredi	2955	2955	NC	NC	-	-	12	12	obj	obj	_	_	_	_	_
+15	17	213	213	ADJ	ADJ	-	-	14	14	mod	mod	_	_	_	_	_
+16	décembre	1355	1355	NC	NC	-	-	14	14	mod	mod	_	_	_	_	_
+17	dernier	256	256	ADJ	ADJ	-	-	14	14	mod	mod	_	_	_	_	_
+18	et	34	34	CC	CC	-	-	3	3	coord	coord	_	_	_	_	_
+19	je	5	5	CLS	CLS	-	-	21	21	suj	suj	_	_	_	_	_
+20	vous	9	9	CLO	CLO	-	-	21	21	aff	aff	_	_	_	_	_
+21	renouvelle	renouvelle	renouvelle	V	V	-	-	18	18	dep_coord	dep_coord	_	_	_	_	_
+22	tous	343	343	ADJ	ADJ	-	-	24	24	mod	mod	_	_	_	_	_
+23	mes	478	478	DET	DET	-	-	24	24	det	det	_	_	_	_	_
+24	vux	8074	8074	NC	NC	-	-	21	21	obj	obj	_	_	_	_	_
+25	en	48	48	P	P	-	-	21	21	mod	mod	_	_	_	_	_
+26	espérant	51	51	VPR	VPR	-	-	25	25	obj	obj	Y	hope.01	_	_	_
+27	que	83	83	CS	CS	-	-	26	26	obj	obj	_	_	_	_	A1
+28	vous	9	9	CLS	CLS	-	-	29	29	suj	suj	_	_	_	_	_
+29	avez	132	132	V	V	-	-	27	27	obj	obj	_	_	_	_	_
+30	passé	244	244	ADV	ADV	-	-	29	29	mod	mod	_	_	_	_	_
+31	de	32	32	DET	DET	-	-	33	33	det	det	_	_	_	_	_
+32	bonnes	239	239	ADJ	ADJ	-	-	33	33	mod	mod	_	_	_	_	_
+33	vacances	1432	1432	NC	NC	-	-	29	29	obj	obj	_	_	_	_	_
+34	.	13	13	PONCT	PONCT	-	-	0	0	ROOT	ROOT	_	_	_	_	_
+
+1	Vous	9	9	CLS	CLS	-	-	3	3	suj	suj	_	_	A0
+2	avez	132	132	V	V	-	-	3	3	aux_tps	aux_tps	_	_	_
+3	souhaité	302	302	VPP	VPP	-	-	0	0	ROOT	ROOT	Y	want.01	_
+4	un	26	26	DET	DET	-	-	5	5	det	det	_	_	_
+5	débat	129	129	NC	NC	-	-	3	3	obj	obj	_	_	A1
+6	à	2	2	P	P	-	-	3	3	mod	mod	_	_	_
+7	ce	19	19	DET	DET	-	-	8	8	det	det	_	_	_
+8	sujet	192	192	NC	NC	-	-	6	6	obj	obj	_	_	_
+9	dans	8	8	P	P	-	-	3	3	mod	mod	_	_	_
+10	les	9	9	DET	DET	-	-	12	12	det	det	_	_	_
+11	prochains	446	446	ADJ	ADJ	-	-	12	12	mod	mod	_	_	_
+12	jours	574	574	NC	NC	-	-	9	9	obj	obj	_	_	_
+13	,	13	13	PONCT	PONCT	-	-	3	3	ponct	ponct	_	_	_
+14	au	208	208	P+D	P+D	-	-	3	3	mod	mod	_	_	_
+15	cours	89	89	NC	NC	-	-	14	14	obj	obj	_	_	_
+16	de	32	32	P	P	-	-	15	15	dep	dep	_	_	_
+17	cette	46	46	DET	DET	-	-	18	18	det	det	_	_	_
+18	période	1540	1540	NC	NC	-	-	16	16	obj	obj	_	_	_
+19	de	32	32	P	P	-	-	18	18	dep	dep	_	_	_
+20	session	1541	1541	NC	NC	-	-	19	19	obj	obj	_	_	_
+21	.	13	13	PONCT	PONCT	-	-	0	0	ROOT	ROOT	_	_	_
+
+1	Je	5	5	CLS	CLS	-	-	3	3	suj	suj	_	_	A0	_
+2	vous	9	9	CLO	CLO	-	-	3	3	aff	aff	_	_	A1	A0
+3	invite	1470	1470	V	V	-	-	0	0	ROOT	ROOT	Y	invite.01	_	_
+4	à	2	2	P	P	-	-	3	3	mod	mod	_	_	A2	_
+5	vous	9	9	CLO	CLO	-	-	6	6	obj	obj	_	_	_	A1
+6	lever	1049	1049	VINF	VINF	-	-	4	4	obj	obj	Y	lift.01	_	_
+7	pour	56	56	P	P	-	-	6	6	mod	mod	_	_	_	_
+8	cette	46	46	DET	DET	-	-	9	9	det	det	_	_	_	_
+9	minute	2598	2598	NC	NC	-	-	7	7	obj	obj	_	_	_	_
+10	de	32	32	P	P	-	-	9	9	dep	dep	_	_	_	_
+11	silence	2989	2989	NC	NC	-	-	10	10	obj	obj	_	_	_	_
+12	.	13	13	PONCT	PONCT	-	-	0	0	ROOT	ROOT	_	_	_	_
+
+1	(	13	13	PONCT	PONCT	-	-	7	7	ponct	ponct	_	_	_
+2	Le	1052	1052	DET	DET	-	-	3	3	det	det	_	_	_
+3	Parlement	412	412	NPP	NPP	-	-	7	7	suj	suj	_	_	A0
+4	,	13	13	PONCT	PONCT	-	-	7	7	ponct	ponct	_	_	_
+5	debout	10222	10222	ADV	ADV	-	-	7	7	mod	mod	_	_	_
+6	,	13	13	PONCT	PONCT	-	-	7	7	ponct	ponct	_	_	_
+7	observe	5102	5102	V	V	-	-	0	0	ROOT	ROOT	Y	observe.02	_
+8	une	39	39	DET	DET	-	-	9	9	det	det	_	_	_
+9	minute	2598	2598	NC	NC	-	-	7	7	obj	obj	_	_	A1
+10	de	32	32	P	P	-	-	9	9	dep	dep	_	_	_
+11	silence	2989	2989	NC	NC	-	-	10	10	obj	obj	_	_	_
+12	)	13	13	PONCT	PONCT	-	-	0	0	ROOT	ROOT	_	_	_
+
+1	Madame	15	15	NC	NC	-	-	6	6	mod	mod	_	_
+2	la	9	9	DET	DET	-	-	3	3	det	det	_	_
+3	Présidente	580	580	NC	NC	-	-	1	1	mod	mod	_	_
+4	,	13	13	PONCT	PONCT	-	-	6	6	ponct	ponct	_	_
+5	c'	757	757	CLS	CLS	-	-	6	6	suj	suj	_	_
+6	est	6	6	V	V	-	-	0	0	ROOT	ROOT	_	_
+7	une	39	39	DET	DET	-	-	8	8	det	det	_	_
+8	motion	2682	2682	NC	NC	-	-	6	6	ats	ats	_	_
+9	de	32	32	P	P	-	-	8	8	dep	dep	_	_
+10	procédure	268	268	NC	NC	-	-	9	9	obj	obj	_	_
+11	.	13	13	PONCT	PONCT	-	-	0	0	ROOT	ROOT	_	_

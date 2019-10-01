@@ -1,0 +1,81 @@
+No                            	UH    (S1(S(INTJ*)  	     *   		-
+,                             	,               *   	     *   		-
+it                            	PRP          (NP*)  	     *   		-
+was                           	AUX          (VP*   	     *   		-
+n't                           	RB              *   	     *   		-
+Black                         	NNP          (NP*   	 (LOC*   		-
+Monday                        	NNP             *)) 	     *)  		-
+.                             	.               *)) 	     *   		-
+
+But                           	CC       (S1(S*         	      *   		-                       *               *               *               *
+while                         	IN       (SBAR*         	      *   		-                       *               *        (AM-ADV*               *
+the                           	DT       (S(NP*         	      *   		-                    (A1*               *               *               *
+New                           	NNP           *         	  (ORG*   		-                       *               *               *               *
+York                          	NNP           *         	      *   		-                       *               *               *               *
+Stock                         	NNP           *         	      *   		-                       *               *               *               *
+Exchange                      	NNP           *)        	      *)  		-                       *)              *               *               *
+did                           	AUX        (VP*         	      *   		-                       *               *               *               *
+n't                           	RB            *         	      *   		-                (AM-NEG*)              *               *               *
+fall                          	VB         (VP*         	      *   		fall                  (V*)              *               *               *
+apart                         	RP        (PRT*)        	      *   		-                    (A4*)              *               *               *
+Friday                        	NNP        (NP*)        	      *   		-                (AM-TMP*)              *               *               *
+as                            	IN       (SBAR*         	      *   		-                (AM-TMP*               *               *               *
+the                           	DT       (S(NP*         	      *   		-                       *            (A1*               *               *
+Dow                           	NNP           *         	 (MISC*   		-                       *               *               *               *
+Jones                         	NNP           *         	      *)  		-                       *               *               *               *
+Industrial                    	NNP           *         	      *   		-                       *               *               *               *
+Average                       	NNP           *)        	      *   		-                       *               *)              *               *
+plunged                       	VBD        (VP*         	      *   		plunge                  *             (V*)              *               *
+190.58                        	CD         (NP*         	      *   		-                       *            (A2*               *               *
+points                        	NNS           *)))))))) 	      *   		-                       *               *               *               *
+--                            	:         (PRN*         	      *   		-                       *               *               *               *
+most                          	JJS   (PP(ADVP*         	      *   		-                       *               *               *               *
+of                            	IN         (PP*         	      *   		-                       *               *               *               *
+it                            	PRP        (NP*)))      	      *   		-                       *               *               *               *
+in                            	IN            *         	      *   		-                       *               *               *               *
+the                           	DT         (NP*         	      *   		-                       *               *               *               *
+final                         	JJ            *         	      *   		-                       *               *               *               *
+hour                          	NN            *))       	      *   		-                       *               *               *               *
+--                            	:             *)        	      *   		-                       *)              *)              *)              *
+it                            	PRP        (NP*)        	      *   		-                       *               *            (A0*)           (A1*)
+barely                        	RB    (VP(ADVP*)        	      *   		-                       *               *        (AM-ADV*)              *
+managed                       	VBD           *         	      *   		manage                  *               *             (V*)              *
+to                            	TO       (S(VP*         	      *   		-                       *               *            (A1*               *
+stay                          	VB         (VP*         	      *   		stay                    *               *               *             (V*)
+this                          	DT         (NP*         	      *   		-                       *               *               *            (A3*
+side                          	NN            *)        	      *   		-                       *               *               *               *
+of                            	IN         (PP*         	      *   		-                       *               *               *               *
+chaos                         	NN         (NP*))))))   	      *   		-                       *               *               *)              *)
+.                             	.             *))       	      *   		-                       *               *               *               *
+
+Some                          	DT     (S1(S(S(NP(NP*          	  *   		-                    (A1*            (A1*            (A1*            (A0*
+``                            	''                  *          	  *   		-                       *               *               *               *
+circuit                       	NN                  *          	  *   		-                       *               *               *               *
+breakers                      	NNS                 *)         	  *   		-                       *               *               *               *
+''                            	''                  *          	  *   		-                       *)              *               *               *
+installed                     	VBN              (VP*          	  *   		install               (V*)              *               *               *
+after                         	IN               (PP*          	  *   		-                (AM-TMP*               *               *               *
+the                           	DT               (NP*          	  *   		-                       *               *               *               *
+October                       	NNP                 *          	  *   		-                       *               *               *               *
+1987                          	CD                  *          	  *   		-                       *               *               *               *
+crash                         	NN                  *))))      	  *   		-                       *)              *)              *               *)
+failed                        	VBD              (VP*          	  *   		fail                    *             (V*)              *               *
+their                         	PRP$             (NP*          	  *   		-                       *            (A2*               *               *
+first                         	JJ                  *          	  *   		-                       *               *               *               *
+test                          	NN                  *)))       	  *   		-                       *               *)              *)              *
+,                             	,                   *          	  *   		-                       *               *               *               *
+traders                       	NNS              (NP*)         	  *   		-                       *               *            (A0*)              *
+say                           	VBP              (VP*          	  *   		say                     *               *             (V*)              *
+,                             	,                   *          	  *   		-                       *               *               *               *
+unable                        	JJ           (S(ADJP*          	  *   		-                       *        (AM-PRD*          (C-A1*               *
+to                            	TO             (S(VP*          	  *   		-                       *               *               *               *
+cool                          	VB               (VP*          	  *   		cool                    *               *               *             (V*)
+the                           	DT            (NP(NP*          	  *   		-                       *               *               *            (A1*
+selling                       	NN                  *          	  *   		-                       *               *               *               *
+panic                         	NN                  *)         	  *   		-                       *               *               *               *
+in                            	IN               (PP*          	  *   		-                       *               *               *               *
+both                          	DT               (NP*          	  *   		-                       *               *               *               *
+stocks                        	NNS                 *          	  *   		-                       *               *               *               *
+and                           	CC                  *          	  *   		-                       *               *               *               *
+futures                       	NNS                 *))))))))) 	  *   		-                       *               *)              *)              *)
+.                             	.                   *))        	  *   		-                       *               *               *               *      

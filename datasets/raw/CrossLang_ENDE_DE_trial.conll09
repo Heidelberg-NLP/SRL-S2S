@@ -1,0 +1,110 @@
+1	Frau	Frau	Frau	NN	NN	_	nom|sg|fem	5	5	CJ	CJ	_	_	AM-DIS	_
+2	Präsidentin	Präsidentin	Präsidentin	NN	NN	_	nom|sg|fem	1	1	NK	NK	_	_	_	_
+3	,	--	--	$,	$,	_	_	2	2	--	--	_	_	_	_
+4	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	5	5	SB	SB	_	_	A0	A0
+5	möchte	möchten	möchten	VMFIN	VMFIN	_	sg|1|pres|ind	0	0	--	--	Y	[like.02]	_	_
+6	Herrn	Herr	Herr	NN	NN	_	acc|sg|masc	16	16	OA	OA	_	_	_	A1
+7	Poettering	Poettering	Poettering	NE	NE	_	acc|sg|masc	6	6	NK	NK	_	_	_	_
+8	für	für	für	APPR	APPR	_	_	16	16	MO	MO	_	_	_	A2
+9	das	der	der	ART	ART	_	acc|sg|neut	10	10	NK	NK	_	_	_	_
+10	Rühren	rühren	rühren	NN	NN	_	acc|sg|neut	8	8	NK	NK	_	_	_	_
+11	der	der	der	ART	ART	_	nom|sg|masc	12	12	NK	NK	_	_	_	_
+12	Werbetrommel	Werbetrommel	Werbetrommel	NN	NN	_	nom|sg|masc	10	10	AG	AG	_	_	_	_
+13	zugunsten	zugunsten	zugunsten	APPR	APPR	_	_	10	10	MNR	MNR	_	_	_	_
+14	dieser	dieser	dieser	PDAT	PDAT	_	nom|sg|masc	15	15	NK	NK	_	_	_	_
+15	Aussprache	Aussprache	Aussprache	NN	NN	_	acc|pl|fem	13	13	NK	NK	_	_	_	_
+16	danken	danken	danken	VVINF	VVINF	_	_	5	5	OC	OC	Y	[thank.01]	_	_
+17	.	--	--	$.	$.	_	_	16	16	--	--	_	_	_	_
+
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	2	2	SB	SB	_	_	A0
+2	beglückwünsche	beglückwünschen	beglückwünschen	VVFIN	VVFIN	_	sg|1|pres|ind	0	0	--	--	Y	[congratulate.01]	_
+3	ihn	ihn	ihn	PPER	PPER	_	acc|sg|masc|3	2	2	OA	OA	_	_	A1
+4	zu	zu	zu	APPR	APPR	_	_	2	2	MO	MO	_	_	A2
+5	seinem	sein	sein	PPOSAT	PPOSAT	_	dat|sg|neut	7	7	NK	NK	_	_	_
+6	ausgezeichneten	ausgezeichnet	ausgezeichnet	ADJA	ADJA	_	dat|sg|neut|pos	7	7	NK	NK	_	_	_
+7	Bericht	Bericht	Bericht	NN	NN	_	dat|sg|neut	4	4	NK	NK	_	_	_
+8	.	--	--	$.	$.	_	_	7	7	--	--	_	_	_
+
+1	Ich	ich	ich	PPER	PPER	_	nom|sg|*|1	2	2	SB	SB	_	_	A0	A0
+2	möchte	möchten	möchten	VMFIN	VMFIN	_	sg|1|pres|ind	0	0	--	--	Y	[like.02]	_	_
+3	nur	nur	nur	ADV	ADV	_	_	4	4	MO	MO	_	_	_	_
+4	wenige	weniger	weniger	PIAT	PIAT	_	acc|pl|fem|pos	5	5	NK	NK	_	_	_	_
+5	Anmerkungen	Anmerkung	Anmerkung	NN	NN	_	acc|pl|fem	6	6	OA	OA	_	_	_	AM-PRR
+6	machen	machen	machen	VVINF	VVINF	_	_	2	2	OC	OC	Y	[make.02]	_	_
+7	.	--	--	$.	$.	_	_	6	6	--	--	_	_	_	_
+
+1	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	2	2	SB	SB	_	_	A0
+2	akzeptieren	akzeptieren	akzeptieren	VVFIN	VVFIN	_	pl|1|pres|ind	0	0	--	--	Y	[accept.01]	_
+3	also	also	also	ADV	ADV	_	_	2	2	MO	MO	_	_	AM-MNR
+4	die	der	der	ART	ART	_	acc|sg|fem	8	8	NK	NK	_	_	_
+5	uns	uns	uns	PPER	PPER	_	dat|pl|*|1	6	6	DA	DA	_	_	_
+6	unterbreiteten	unterbreiten	unterbreiten	ADJA	ADJA	_	pl|3|past|ind	8	8	NK	NK	_	_	_
+7	vier	vier	vier	CARD	CARD	_	_	8	8	NK	NK	_	_	_
+8	Änderungsanträge	Änderungsantrag	Änderungsantrag	NN	NN	_	acc|pl|masc	2	2	OA	OA	_	_	A1
+9	.	--	--	$.	$.	_	_	8	8	--	--	_	_	_
+
+1	Deshalb	deshalb	deshalb	PROAV	PROAV	_	_	2	2	MO	MO	_	_	AM-ADV
+2	appelliere	appellieren	appellieren	VVFIN	VVFIN	_	sg|1|pres|ind	0	0	--	--	Y	[appeal.03]	_
+3	ich	ich	ich	PPER	PPER	_	nom|sg|*|1	2	2	SB	SB	_	_	A0
+4	an	an	an	APPR	APPR	_	_	2	2	OP	OP	_	_	A1
+5	den	der	der	ART	ART	_	acc|sg|masc	6	6	NK	NK	_	_	_
+6	Rat	Rat	Rat	NN	NN	_	acc|sg|masc	4	4	NK	NK	_	_	_
+7	und	und	und	KON	KON	_	_	6	6	CD	CD	_	_	_
+8	die	der	der	ART	ART	_	acc|sg|fem	9	9	NK	NK	_	_	_
+9	Kommission	Kommission	Kommission	NN	NN	_	acc|sg|fem	7	7	CJ	CJ	_	_	_
+10	.	--	--	$.	$.	_	_	9	9	--	--	_	_	_
+
+1	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	2	2	SB	SB	_	_	A0
+2	wollen	wollen	wollen	VMFIN	VMFIN	_	pl|1|pres|ind	0	0	--	--	Y	[want.01]	_
+3	eine	ein	ein	ART	ART	_	acc|sg|fem	5	5	NK	NK	_	_	_
+4	echte	echt	echt	ADJA	ADJA	_	acc|sg|fem|pos	5	5	NK	NK	_	_	_
+5	Wettbewerbskultur	Wettbewerbskultur	Wettbewerbskultur	NN	NN	_	acc|sg|fem	2	2	OA	OA	_	_	A1
+6	in	in	in	APPR	APPR	_	_	5	5	MNR	MNR	_	_	_
+7	Europa	Europa	Europa	NE	NE	_	dat|sg|neut	6	6	NK	NK	_	_	_
+8	.	--	--	$.	$.	_	_	7	7	--	--	_	_	_
+
+1	Herr	Herr	Herr	NN	NN	_	nom|sg|masc	6	6	VO	VO	_	_	AM-DIS
+2	Präsident	Präsident	Präsident	NN	NN	_	nom|sg|masc	1	1	NK	NK	_	_	_
+3	,	--	--	$,	$,	_	_	2	2	--	--	_	_	_
+4	wieder	wieder	wieder	ADV	ADV	_	_	6	6	MO	MO	_	_	AM-TMP
+5	einmal	einmal	einmal	ADV	ADV	_	_	4	4	MO	MO	_	_	_
+6	debattieren	debattieren	debattieren	VVFIN	VVFIN	_	pl|1|pres|ind	0	0	--	--	Y	[debate.01]	_
+7	wir	wir	wir	PPER	PPER	_	nom|pl|*|1	6	6	SB	SB	_	_	A0
+8	über	über	über	APPR	APPR	_	_	6	6	OP	OP	_	_	A1
+9	die	der	der	ART	ART	_	acc|sg|fem	10	10	NK	NK	_	_	_
+10	Wettbewerbspolitik	Wettbewerbspolitik	Wettbewerbspolitik	NN	NN	_	acc|sg|fem	8	8	NK	NK	_	_	_
+11	der	der	der	ART	ART	_	gen|sg|fem	13	13	NK	NK	_	_	_
+12	Europäischen	europäisch	europäisch	ADJA	ADJA	_	gen|sg|fem|pos	13	13	NK	NK	_	_	_
+13	Union	Union	Union	NN	NN	_	gen|sg|fem	10	10	AG	AG	_	_	_
+14	.	--	--	$.	$.	_	_	13	13	--	--	_	_	_
+
+1	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	2	2	SB	SB	_	_	A0	A0
+2	müssen	müssen	müssen	VMFIN	VMFIN	_	pl|1|pres|ind	0	0	--	--	Y	[need.01]	_	_
+3	diese	dieser	dieser	PDAT	PDAT	_	acc|sg|fem	4	4	NK	NK	_	_	_	_
+4	Verantwortung	Verantwortung	Verantwortung	NN	NN	_	acc|sg|fem	6	6	OA	OA	_	_	_	A1
+5	ernst	ernst	ernst	ADJD	ADJD	_	pos	6	6	MO	MO	_	_	_	AM-MNR
+6	nehmen	nehmen	nehmen	VVINF	VVINF	_	_	2	2	OC	OC	Y	[take.01]	_	_
+7	.	--	--	$.	$.	_	_	6	6	--	--	_	_	_	_
+
+1	Wir	wir	wir	PPER	PPER	_	nom|pl|*|1	2	2	SB	SB	_	_	A0
+2	brauchen	brauchen	brauchen	VVFIN	VVFIN	_	pl|1|pres|ind	0	0	--	--	Y	[need.01]	_
+3	eine	ein	ein	ART	ART	_	acc|sg|fem	5	5	NK	NK	_	_	_
+4	öffentliche	öffentlich	öffentlich	ADJA	ADJA	_	acc|sg|fem	5	5	NK	NK	_	_	_
+5	Debatte	Debatte	Debatte	NN	NN	_	acc|sg|fem|pos	2	2	OA	OA	_	_	A1
+6	zu	zu	zu	APPR	APPR	_	_	5	5	MNR	MNR	_	_	_
+7	diesem	dieser	dieser	PDAT	PDAT	_	dat|sg|neut	8	8	NK	NK	_	_	_
+8	Thema	Thema	Thema	NN	NN	_	dat|sg|neut	6	6	NK	NK	_	_	_
+9	.	--	--	$.	$.	_	_	8	8	--	--	_	_	_
+
+1	Eine	ein	ein	ART	ART	_	nom|sg|fem	4	4	NK	NK	_	_	_
+2	weitere	weit	weit	ADJA	ADJA	_	nom|sg|fem|comp	4	4	NK	NK	_	_	_
+3	wichtige	wichtig	wichtig	ADJA	ADJA	_	nom|sg|fem|pos	4	4	NK	NK	_	_	_
+4	Kritik	Kritik	Kritik	NN	NN	_	nom|sg|fem	8	8	SB	SB	_	_	A0
+5	an	an	an	APPR	APPR	_	_	4	4	MNR	MNR	_	_	_
+6	dem	der	der	ART	ART	_	dat|sg|masc	7	7	NK	NK	_	_	_
+7	Bericht	Bericht	Bericht	NN	NN	_	dat|sg|masc	5	5	NK	NK	_	_	_
+8	betrifft	betreffen	betreffen	VVFIN	VVFIN	_	sg|3|pres|ind	0	0	--	--	Y	[concern.02]	_
+9	das	der	der	ART	ART	_	nom|sg|neut	11	11	NK	NK	_	_	_
+10	abgeleitete	abgeleitet	abgeleitet	ADJA	ADJA	_	nom|sg|neut|pos	11	11	NK	NK	_	_	_
+11	Recht	Recht	Recht	NN	NN	_	nom|sg|neut	8	8	OA	OA	_	_	A1
+12	.	--	--	$.	$.	_	_	11	11	--	--	_	_	_

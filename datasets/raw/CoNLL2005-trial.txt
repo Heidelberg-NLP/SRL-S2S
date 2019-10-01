@@ -1,0 +1,266 @@
+The	DT    (S1(S(NP(NP*        	  *   	-  	-                    (A1*
+economy	NN               *        	  *   	-  	-                       *
+'s	POS              *)       	  *   	-  	-                       *
+temperature	NN               *)       	  *   	-  	-                       *)
+will	MD            (VP*        	  *   	-  	-                (AM-MOD*)
+be	AUX           (VP*        	  *   	-  	-                       *
+taken	VBN           (VP*        	  *   	01 	take                  (V*)
+from	IN            (PP*        	  *   	-  	-                    (A2*
+several	JJ            (NP*        	  *   	-  	-                       *
+vantage	NN               *        	  *   	-  	-                       *
+points	NNS              *))      	  *   	-  	-                       *)
+this	DT            (NP*        	  *   	-  	-                (AM-TMP*
+week	NN               *)       	  *   	-  	-                       *)
+,	,                *        	  *   	-  	-                       *
+with	IN            (PP*        	  *   	-  	-                (AM-ADV*
+readings	NNS        (NP(NP*)       	  *   	-  	-                       *
+on	IN            (PP*        	  *   	-  	-                       *
+trade	NN            (NP*        	  *   	-  	-                       *
+,	,                *        	  *   	-  	-                       *
+output	NN               *        	  *   	-  	-                       *
+,	,                *        	  *   	-  	-                       *
+housing	NN               *        	  *   	-  	-                       *
+and	CC               *        	  *   	-  	-                       *
+inflation	NN               *))))))) 	  *   	-  	-                       *)
+.	.                *))      	  *   	-  	-                       *
+
+The	DT    (S1(S(NP*      	  *   	-  	-
+most	RBS      (ADJP*      	  *   	-  	-
+troublesome	JJ            *)     	  *   	-  	-
+report	NN            *)     	  *   	-  	-
+may	MD         (VP*      	  *   	-  	-
+be	AUX        (VP*      	  *   	-  	-
+the	DT      (NP(NP*      	  *   	-  	-
+August	NNP           *      	  *   	-  	-
+merchandise	NN            *      	  *   	-  	-
+trade	NN            *      	  *   	-  	-
+deficit	NN            *)     	  *   	-  	-
+due	JJ       (ADJP*      	  *   	-  	-
+out	IN       (ADVP*)     	  *   	-  	-
+tomorrow	NN         (NP*))))) 	  *   	-  	-
+.	.             *))    	  *   	-  	-
+
+The	DT    (S1(S(NP*            	     *   	-  	-                    (A1*            (A1*
+trade	NN            *            	     *   	-  	-                       *               *
+gap	NN            *)           	     *   	-  	-                       *)              *)
+is	AUX        (VP*            	     *   	-  	-                       *               *
+expected	VBN        (VP*            	     *   	01 	expect                (V*)              *
+to	TO       (S(VP*            	     *   	-  	-                  (C-A1*               *
+widen	VB         (VP*            	     *   	01 	widen                   *             (V*)
+to	TO         (PP*            	     *   	-  	-                       *            (A4*
+about	RB      (NP(QP*            	     *   	-  	-                       *               *
+$	$             *            	     *   	-  	-                       *               *
+9	CD            *            	     *   	-  	-                       *               *
+billion	CD            *)))         	     *   	-  	-                       *               *)
+from	IN         (PP*            	     *   	-  	-                       *            (A3*
+July	NNP     (NP(NP*            	     *   	-  	-                       *               *
+'s	POS           *)           	     *   	-  	-                       *               *
+$	$          (QP*            	     *   	-  	-                       *               *
+7.6	CD            *            	     *   	-  	-                       *               *
+billion	CD            *))))))      	     *   	-  	-                       *)              *)
+,	,             *            	     *   	-  	-                       *               *
+according	VBG        (PP*            	     *   	-  	-                (AM-ADV*               *
+to	TO         (PP*            	     *   	-  	-                       *               *
+a	DT      (NP(NP*            	     *   	-  	-                       *               *
+survey	NN            *)           	     *   	-  	-                       *               *
+by	IN         (PP*            	     *   	-  	-                       *               *
+MMS	NNP     (NP(NP*            	 (ORG*   	-  	-                       *               *
+International	NNP           *)           	     *)  	-  	-                       *               *
+,	,             *            	     *   	-  	-                       *               *
+a	DT      (NP(NP*            	     *   	-  	-                       *               *
+unit	NN            *)           	     *   	-  	-                       *               *
+of	IN         (PP*            	     *   	-  	-                       *               *
+McGraw-Hill	NNP     (NP(NP*            	 (ORG*   	-  	-                       *               *
+Inc.	NNP           *)           	     *)  	-  	-                       *               *
+,	,             *            	     *   	-  	-                       *               *
+New	NNP        (NP*            	 (LOC*   	-  	-                       *               *
+York	NNP           *))))))))))) 	     *)  	-  	-                       *)              *
+.	.             *))          	     *   	-  	-                       *               *
+
+Thursday	NNP   (S1(S(NP(NP(NP*          	  *   	-  	-                    (A1*            (A1*               *
+'s	POS                 *)         	  *   	-  	-                       *               *               *
+report	NN                  *)         	  *   	-  	-                       *               *               *
+on	IN               (PP*          	  *   	-  	-                       *               *               *
+the	DT               (NP*          	  *   	-  	-                       *               *               *
+September	NNP                 *          	  *   	-  	-                       *               *               *
+consumer	NN                  *          	  *   	-  	-                       *               *               *
+price	NN                  *          	  *   	-  	-                       *               *               *
+index	NN                  *)))       	  *   	-  	-                       *)              *)              *
+is	AUX              (VP*          	  *   	-  	-                       *               *               *
+expected	VBN              (VP*          	  *   	01 	expect                (V*)              *               *
+to	TO             (S(VP*          	  *   	-  	-                  (C-A1*               *               *
+rise	VB               (VP*)))       	  *   	01 	rise                    *             (V*)              *
+,	,                   *          	  *   	-  	-                       *               *               *
+although	IN             (SBAR*          	  *   	-  	-                       *        (AM-ADV*               *
+not	RB             (FRAG*          	  *   	-  	-                       *               *               *
+as	RB             (ADVP*          	  *   	-  	-                       *               *               *
+sharply	RB                  *)         	  *   	-  	-                       *               *               *
+as	IN               (PP*          	  *   	-  	-                       *               *               *
+the	DT            (NP(NP*          	  *   	-  	-                       *               *            (A1*
+0.9	CD             (ADJP*          	  *   	-  	-                       *               *               *
+%	NN                  *)         	  *   	-  	-                       *               *               *
+gain	NN                  *)         	  *   	-  	-                       *               *               *)
+reported	VBN              (VP*          	  *   	01 	report                  *               *             (V*)
+Friday	NNP              (NP*)         	  *   	-  	-                       *               *        (AM-TMP*)
+in	IN               (PP*          	  *   	-  	-                       *               *        (AM-LOC*
+the	DT               (NP*          	  *   	-  	-                       *               *               *
+producer	NN                  *          	  *   	-  	-                       *               *               *
+price	NN                  *          	  *   	-  	-                       *               *               *
+index	NN                  *))))))))) 	  *   	-  	-                       *)              *)              *)
+.	.                   *))        	  *   	-  	-                       *               *               *
+
+That	DT       (S1(S(NP*                	  *   	-  	-                    (A1*               *               *
+gain	NN               *)               	  *   	-  	-                       *)              *               *
+was	AUX           (VP*                	  *   	-  	-                       *               *               *
+being	AUXG          (VP*                	  *   	-  	-                       *               *               *
+cited	VBN           (VP*                	  *   	01 	cite                  (V*)              *               *
+as	IN            (PP*                	  *   	-  	-                    (A2*               *               *
+a	DT         (NP(NP*                	  *   	-  	-                       *               *               *
+reason	NN               *)               	  *   	-  	-                       *               *               *
+the	DT     (SBAR(S(NP*                	  *   	-  	-                       *               *               *
+stock	NN               *                	  *   	-  	-                       *               *               *
+market	NN               *)               	  *   	-  	-                       *               *               *
+was	AUX           (VP*                	  *   	-  	-                       *               *               *
+down	RB          (ADVP*)               	  *   	-  	-                       *               *               *
+early	RB       (PP(ADVP*)               	  *   	-  	-                       *               *               *
+in	IN               *                	  *   	-  	-                       *               *               *
+Friday	NNP        (NP(NP*                	  *   	-  	-                       *               *               *
+'s	POS              *)               	  *   	-  	-                       *               *               *
+session	NN               *))              	  *   	-  	-                       *               *               *
+,	,                *                	  *   	-  	-                       *               *               *
+before	IN          (SBAR*                	  *   	-  	-                       *               *               *
+it	PRP         (S(NP*)               	  *   	-  	-                       *            (A1*)           (A1*)
+got	VBD           (VP*                	  *   	03 	get                     *             (V*)              *
+started	VBN         (S(VP*                	  *   	01 	start                   *            (A2*             (V*)
+on	IN            (PP*                	  *   	-  	-                       *               *        (AM-LOC*
+its	PRP$          (NP*                	  *   	-  	-                       *               *               *
+reckless	JJ               *                	  *   	-  	-                       *               *               *
+190-point	JJ               *                	  *   	-  	-                       *               *               *
+plunge	NN               *))))))))))))))) 	  *   	-  	-                       *)              *)              *)
+.	.                *))              	  *   	-  	-                       *               *               *
+
+Economists	NNS     (S1(S(NP*)               	  *   	-  	-                    (A1*)              *               *
+are	AUX          (VP*                	  *   	-  	-                       *               *               *
+divided	VBN          (VP*                	  *   	02 	divide                (V*)              *               *
+as	IN           (PP*                	  *   	-  	-                (AM-CAU*               *               *
+to	TO           (PP*                	  *   	-  	-                       *               *               *
+how	WRB   (SBAR(WHNP*                	  *   	-  	-                       *               *            (A1*
+much	JJ              *                	  *   	-  	-                       *               *               *
+manufacturing	NN              *                	  *   	-  	-                       *               *               *
+strength	NN              *)               	  *   	-  	-                       *               *               *)
+they	PRP        (S(NP*)               	  *   	-  	-                       *            (A0*)           (A0*)
+expect	VBP          (VP*                	  *   	01 	expect                  *             (V*)              *
+to	TO         (S(VP*                	  *   	-  	-                       *            (A1*               *
+see	VB           (VP*                	  *   	01 	see                     *               *             (V*)
+in	IN           (PP*                	  *   	-  	-                       *               *        (AM-LOC*
+September	NNP          (NP*))              	  *   	-  	-                       *               *               *
+reports	NNS       (NP(NP*)               	  *   	-  	-                       *               *               *
+on	IN           (PP*                	  *   	-  	-                       *               *               *
+industrial	JJ        (NP(NP*                	  *   	-  	-                       *               *               *
+production	NN              *)               	  *   	-  	-                       *               *               *
+and	CC              *                	  *   	-  	-                       *               *               *
+capacity	NN        (NP(NP*)               	  *   	-  	-                       *               *               *
+utilization	NN           (NP*                	  *   	-  	-                       *               *               *
+,	,               *                	  *   	-  	-                       *               *               *
+also	RB    (ADJP(ADVP*)               	  *   	-  	-                       *               *               *
+due	JJ              *)               	  *   	-  	-                       *               *               *
+tomorrow	NN              *))))))))))))))) 	  *   	-  	-                       *)              *)              *)
+.	.               *))              	  *   	-  	-                       *               *               *
+
+Meanwhile	RB    (S1(S(ADVP*)       	  *   	-  	-                (AM-TMP*)              *
+,	,               *        	  *   	-  	-                       *               *
+September	NNP       (NP(NP*        	  *   	-  	-                    (A1*            (A1*
+housing	NN              *        	  *   	-  	-                       *               *
+starts	NNS             *)       	  *   	-  	-                       *               *
+,	,               *        	  *   	-  	-                       *               *
+due	JJ         (ADJP*        	  *   	-  	-                       *               *
+Wednesday	NNP          (NP*))      	  *   	-  	-                       *               *
+,	,               *)       	  *   	-  	-                       *)              *)
+are	AUX          (VP*        	  *   	-  	-                       *               *
+thought	VBN          (VP*        	  *   	01 	think                 (V*)              *
+to	TO         (S(VP*        	  *   	-  	-                  (C-A1*               *
+have	AUX          (VP*        	  *   	-  	-                       *               *
+inched	VBD          (VP*        	  *   	01 	inch                    *             (V*)
+upward	RB         (ADVP*))))))) 	  *   	-  	-                       *)           (A5*)
+.	.               *))      	  *   	-  	-                       *               *
+
+``	:     (S1(SINV(S*     	     *   	-  	-                    (A1*
+There	EX           (NP*)    	     *   	-  	-                       *
+'s	AUX          (VP*     	     *   	-  	-                       *
+a	DT        (NP(NP*     	     *   	-  	-                       *
+possibility	NN              *)    	     *   	-  	-                       *
+of	IN           (PP*     	     *   	-  	-                       *
+a	DT           (NP*     	     *   	-  	-                       *
+surprise	NN              *)))  	     *   	-  	-                       *
+''	''              *     	     *   	-  	-                       *
+in	IN           (PP*     	     *   	-  	-                       *
+the	DT           (NP*     	     *   	-  	-                       *
+trade	NN              *     	     *   	-  	-                       *
+report	NN              *)))) 	     *   	-  	-                       *)
+,	,               *     	     *   	-  	-                       *
+said	VBD          (VP*)    	     *   	01 	say                   (V*)
+Michael	NNP       (NP(NP*     	 (PER*   	-  	-                    (A0*
+Englund	NNP             *)    	     *)  	-  	-                       *
+,	,               *     	     *   	-  	-                       *
+director	NN        (NP(NP*)    	     *   	-  	-                       *
+of	IN           (PP*     	     *   	-  	-                       *
+research	NN           (NP*))   	     *   	-  	-                       *
+at	IN           (PP*     	     *   	-  	-                       *
+MMS	NNP          (NP*)))) 	 (ORG*)  	-  	-                       *)
+.	.               *))   	     *   	-  	-                       *
+
+A	DT    (S1(S(S(NP(NP*       	  *   	-  	-                       *            (A0*               *               *
+widening	NN                 *)      	  *   	-  	-                       *               *               *               *
+of	IN              (PP*       	  *   	-  	-                       *               *               *               *
+the	DT              (NP*       	  *   	-  	-                       *               *               *               *
+deficit	NN                 *)))    	  *   	-  	-                       *               *)              *               *
+,	,                  *       	  *   	-  	-                       *               *               *               *
+if	IN            (SBAR*       	  *   	-  	-                       *        (AM-ADV*               *               *
+it	PRP           (S(NP*)      	  *   	-  	-                    (A1*)              *               *               *
+were	AUX             (VP*       	  *   	-  	-                       *               *               *               *
+combined	VBN             (VP*       	  *   	01 	combine               (V*)              *               *               *
+with	IN              (PP*       	  *   	-  	-                    (A2*               *               *               *
+a	DT              (NP*       	  *   	-  	-                       *               *               *               *
+stubbornly	RB            (ADJP*       	  *   	-  	-                       *               *               *               *
+strong	JJ                 *)      	  *   	-  	-                       *               *               *               *
+dollar	NN                 *)))))) 	  *   	-  	-                       *)              *)              *               *
+,	,                  *       	  *   	-  	-                       *               *               *               *
+would	MD              (VP*       	  *   	-  	-                       *        (AM-MOD*)              *               *
+exacerbate	VB              (VP*       	  *   	01 	exacerbate              *             (V*)              *               *
+trade	NN              (NP*       	  *   	-  	-                       *            (A1*               *               *
+problems	NNS                *))))   	  *   	-  	-                       *               *)              *               *
+--	:                  *       	  *   	-  	-                       *               *               *               *
+but	CC                 *       	  *   	-  	-                       *               *               *               *
+the	DT            (S(NP*       	  *   	-  	-                       *               *            (A1*               *
+dollar	NN                 *)      	  *   	-  	-                       *               *               *)              *
+weakened	VBD             (VP*       	  *   	01 	weaken                  *               *             (V*)              *
+Friday	NNP             (NP*)      	  *   	-  	-                       *               *        (AM-TMP*)              *
+as	IN            (SBAR*       	  *   	-  	-                       *               *        (AM-ADV*               *
+stocks	NNS           (S(NP*)      	  *   	-  	-                       *               *               *            (A1*)
+plummeted	VBD             (VP*)))))  	  *   	01 	plummet                 *               *               *)            (V*)
+.	.                  *))     	  *   	-  	-                       *               *               *               *
+
+In	IN    (S1(S(PP*       	     *   	-  	-                (AM-DIS*               *               *
+any	DT         (NP*       	     *   	-  	-                       *               *               *
+event	NN            *))     	     *   	-  	-                       *)              *               *
+,	,             *       	     *   	-  	-                       *               *               *
+Mr.	NNP     (NP(NP*       	     *   	-  	-                    (A0*               *               *
+Englund	NNP           *)      	 (PER*)  	-  	-                       *               *               *
+and	CC            *       	     *   	-  	-                       *               *               *
+many	JJ         (NP*       	     *   	-  	-                       *               *               *
+others	NNS           *))     	     *   	-  	-                       *)              *               *
+say	VBP        (VP*       	     *   	01 	say                   (V*)              *               *
+that	IN       (SBAR*       	     *   	-  	-                    (A1*               *               *
+the	DT    (S(NP(NP*       	     *   	-  	-                       *               *            (A1*
+easy	JJ            *       	     *   	-  	-                       *               *               *
+gains	NNS           *)      	     *   	-  	-                       *               *               *
+in	IN         (PP*       	     *   	-  	-                       *               *               *
+narrowing	VBG      (S(VP*       	     *   	01 	narrow                  *             (V*)              *
+the	DT         (NP*       	     *   	-  	-                       *            (A1*               *
+trade	NN            *       	     *   	-  	-                       *               *               *
+gap	NN            *)))))  	     *   	-  	-                       *               *)              *)
+have	AUX        (VP*       	     *   	-  	-                       *               *               *
+already	RB       (ADVP*)      	     *   	-  	-                       *               *        (AM-TMP*)
+been	AUX        (VP*       	     *   	-  	-                       *               *               *
+made	VBN        (VP*)))))) 	     *   	01 	make                    *)              *             (V*)
+.	.             *))     	     *   	-  	-                       *               *               *
