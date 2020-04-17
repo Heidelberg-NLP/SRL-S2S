@@ -147,7 +147,7 @@ def evaluate_tagset(gld, sys, gld_pred, sys_pred, consider_verb_token, consider_
     return eval_obj
 
 
-def simple_output_analysis(instances, metadata, consider_verb_label, consider_verb_token, consider_verb_position):
+def simple_output_analysis(instances, metadata, consider_verb_label, consider_args_tokens, consider_verb_position):
     verb_mapping, full_labelset_mapping = defaultdict(list), defaultdict(list)
     confusion_dict = defaultdict(list)
     all_excess, all_missed, all_match = defaultdict(int), defaultdict(int), defaultdict(int)
@@ -171,10 +171,14 @@ def simple_output_analysis(instances, metadata, consider_verb_label, consider_ve
         :return:
         """
         verb_mapping[exp_pred[1]].append(tgt_pred[1])
-        exp_arg_lbl = [f"{x['tag']}_{x['head']}" for x in exp_args]
-        tgt_arg_lbl = [f"{y['tag']}_{y['head']}"  for y in tgt_args]
+        if consider_args_tokens:
+            exp_arg_lbl = [f"{x['tag']}_{x['head']}" for x in exp_args]
+            tgt_arg_lbl = [f"{y['tag']}_{y['head']}" for y in tgt_args]
+        else:
+            exp_arg_lbl = exp_args
+            tgt_arg_lbl = tgt_args
         eval_metrics = evaluate_tagset(set(exp_arg_lbl), set(tgt_arg_lbl), exp_pred, tgt_pred,
-                                       consider_verb_token=consider_verb_token,
+                                       consider_verb_token=consider_args_tokens,
                                        consider_verb_position=consider_verb_position)
         full_labelset_mapping[tuple(exp_arg_lbl)].append(tuple(tgt_arg_lbl))
         pairwise_tags = []
@@ -262,6 +266,6 @@ if __name__ == "__main__":
 
     # Evaluate Outputs
     simple_output_analysis(sys_instances, sys_meta,
-                           consider_verb_label=False, # Include (or not) Predicates in F1 Score
-                           consider_verb_token=True, # Count as correct ONLY IF token in SRC and TGT are the same
+                           consider_verb_label=True, # Include (or not) Predicates in F1 Score
+                           consider_args_tokens=True, # Count as correct ONLY IF token in SRC and TGT are the same
                            consider_verb_position=False) # Count as correct ONLY IF token in SRC and TGT are in the same position
