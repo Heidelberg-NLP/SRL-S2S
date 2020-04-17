@@ -1,7 +1,7 @@
 # Encoder-Decoder Model for Semantic Role Labeling
 
 This repository contains the code for:
-* Paper: [Translate and Label! An Encoder-Decoder Approach for Semantic Role Labeling](https://arxiv.org/abs/1908.11326) (To appear at EMNLP 2019)
+* Paper: [Translate and Label! An Encoder-Decoder Approach for Semantic Role Labeling](https://arxiv.org/abs/1908.11326) (Presented at EMNLP 2019)
 * Authors: [Angel Daza](https://www.cl.uni-heidelberg.de/~daza/), [Anette Frank](https://www.cl.uni-heidelberg.de/~frank/)
 
 The code runs on top of [AllenNLP](https://github.com/allenai/allennlp) toolkit. 
