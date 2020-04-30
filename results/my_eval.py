@@ -10,6 +10,7 @@ logger = set_log("eval.log")
 
 from allennlp.models.semantic_role_labeler import convert_bio_tags_to_conll_format
 DEBUG_MATCH = True
+path_eval_script = "result/srl-eval.pl"
 
 class PredJsonReader(AllenNlpTestCase):
     ''' predictor 実行後に出力される output-file.js を読み込んで srl-eval.pl 実行用の prop ファイルを作成 '''
@@ -51,7 +52,6 @@ class PredJsonReader(AllenNlpTestCase):
             * original_target:              ['(#', 'Some', ..., '.']
         """
         count_different_seq_len, count_inappropriate_bracket, count_without_pred = 0, 0, 0
-        sys.stdout.write('READ <- {}\n'.format(self._predictor_output))
         
         for instance_no, line in enumerate(open(self._predictor_output), start=1):
             line_obj = json.loads(line.strip())
@@ -79,11 +79,11 @@ class PredJsonReader(AllenNlpTestCase):
             
             yield verb, sentence, conll_formatted_predicted_tag, conll_formatted_gold_tag, line_obj
         
-        sys.stdout.write("COUNT:\n")
-        sys.stdout.write("\tinstances: {}\n".format(instance_no))
-        sys.stdout.write("\tdifferent_seq_len: {}\n".format(count_different_seq_len))
-        sys.stdout.write("\tinappropriate_bracket: {}\n".format(count_inappropriate_bracket))
-        sys.stdout.write("\twithout_pred: {}\n".format(count_without_pred))
+        logger.info("COUNT:")
+        logger.info(" - instances: %d" % instance_no)
+        logger.info(" - different_seq_len: %d" % count_different_seq_len)
+        logger.info(" - inappropriate_bracket: %d" % count_inappropriate_bracket)
+        logger.info(" - without_pred: %d" % count_without_pred)
 
     
     def create_predicted_BIO(self, predicted_target: list, metadata) -> list:
@@ -115,22 +115,7 @@ class PredJsonReader(AllenNlpTestCase):
                 else:
                     props.append("I-" + prop)
         
-        out = [p for p in reversed(props)]
-        
-        """
-        import ipdb; ipdb.set_trace()
-        # BIO 付与
-        for bio in reversed(props):
-            if bio == 'O':
-                out.append(bio)
-            else:
-                if bio == prev:
-                    out.append('I-' +bio)
-                else:
-                    out.append('B-' +bio)
-            prev = bio
-        """
-        
+        out = [p for p in reversed(props)]        
         return out, invalid_bracket
 
 
@@ -186,13 +171,13 @@ class PredJsonReader(AllenNlpTestCase):
                         index_word.append(pred[word_idx])   # 列追加
                         if word_idx == verb[0]:
                             index_word[0] = verb[1]         # target verb 列を V-B に書き換え
-
+            
                 prev_sent = sent
             
             ## 末文
             self.write_buffer_sent(fo, buffer_sent, gold_lines, isValid, oracle, buffer_obj)
-        sys.stdout.write('WRITE -> {}\n'.format(self._pred_prop))
-        # sys.stdout.write('count_invalid: {}\n'.format(count_invalid))
+            
+        logger.info('write to ... %s' % self._pred_prop)
 
     
     def read_lines_for_prop(self, prop_file) -> list:
@@ -320,7 +305,7 @@ class PredJsonReader(AllenNlpTestCase):
 
 def create_arg_parser():
     parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--saved_dir', default='saved_models/replicate_amadv', type=str)
+    parser.add_argument('saved_models', type=str)
     parser.add_argument('--test', default='wsj', type=str, help='wsj/brown')
     parser.add_argument('--oracle', default='min', type=str, help='min/max')
     parser.set_defaults(no_thres=False)
@@ -332,12 +317,16 @@ if __name__ == '__main__':
     parser = create_arg_parser()
     args = parser.parse_args()
     
-    f_json = 'predicted.from.test.{}.json'.format(args.test)
-    #f_json = 'conll05.test.{}.json'.format(args.test)
+    predicted_json = 'predicted.from.test.{}.json'.format(args.test)    # from predictor
+    predicted_json = os.path.join('saved_models', predicted_json)
+    
+    logger.debug("read from ... %s" % predicted_json)
+    logger.debug("test ... %s" % args.test)
+    logger.debug("oracle ... %s" % args.oracle)
 
     creator = PredJsonReader(
             args.saved_dir, # saved_dir
-            f_json,         # json file from predictor
+            predicted_json, # json file from predictor
             args.test,      # wsj/brown
             args.oracle,    # min/max
             )
